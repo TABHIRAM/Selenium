@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 
 
 browser = webdriver.Chrome(r'C:\Users\SHRIRAM\Desktop\chromedriver_win32\chromedriver')
-browser.get('https://web.whatsapp.com')
+browser.get('https://web.whatsapp.com') #It will fetch web.whatsapp.com
 
 
 friend = input('Enter your friend name: ')
